@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nan - Menu</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+ <script src="js/jquery.js"></script>
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+    <!--outil d'animation carroussel bootstrap jquery aos animate.css etc..-->
+    <link rel="stylesheet" href="css/animate.css"> 
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/fontawesone.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+		      <a class="navbar-brand" href="index.html"><i class="fa fa-user"></i>NaN<br><small>Delicous</small></a>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="index.html" class="nav-link">Acceuil</a></li>
+	          <li class="nav-item active"><a href="menu.html" class="nav-link">Recette & formations</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+		  </div>
+	  </nav>
+    <!-- END nav -->
+
+    <section class="home-slider owl-carousel img" style="background-image: url(images/bg_1.jpg);">
+      <div class="slider-item" style="background-image: url(images/bg_3.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text justify-content-center align-items-center">
+            <div class="col-md-7 col-sm-12 text-center ftco-animate">
+            	<h1 class="mb-3 mt-5 bread">Recette</h1>
+	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Acceuil</a></span> <span>Menu</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <div style="margin:50px !important;padding:50px !important;" id="pop-recette" class="modal">
+    <h3 class="modal-mess">Interessé?</h3>
+    <div class="divider"></div>
+    <p id="recette">Thanks for clicking. That felt good.</p>
+    <a href="#" rel="modal:close">Close</a>
+  </div>
+
+<div id="pop-interess" class="modal">
+  <h3 class="modal-mess">Interessé?</h3>
+  <div class="divider"></div>
+  <p id="ess">Thanks for clicking. That felt good.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+<!--CONTENU POPUP MENU-->
+<div class="ct" style="display:none">
+  <p>- Pour la pâte à pizza :</p>
+  <ul class="recette">
+  <li>250 g de farine</li>
+  <li>2 c. à soupe d'huile d’olive</li>
+  <li>15 cl d’eau froide + 2 c. à soupe</li>
+  <li>1 pincée de sucre en poudre</li>
+  <li>15 g de levure fraîche de boulanger</li>
+  <li>1/2 c. à café de sel</li>
+  <br>Pour la garniture :<br>
+  <li>250 g de tomates concassées en boîte</li>
+  <li>6 tranches de jambon blanc découenné</li>
+  <li>2 boules de mozzarella</li>
+  <li>1 boîte de champignons de Paris émincés</li>
+  <li>2 pincées d'origan séché</li>
+  <li>sel, poivre au goût</li>
+  
+</ul>
+</div>
+
+<div class="ct2" style="display:none">
+  <ul class="recette2">
+  <li>8 tortillas pour tacos (achetés, ou recette sur le site Marmiton)</li>
+  <li>Tabasco (facultatif)</li>
+  <li>Sel</li>
+  <li>Poivre</li>
+  <li>Cumin en poudre</li>
+  <li>8 feuilles de laitue</li>
+  <li>1/2 poivron vert</li>
+  <li>6 tranches de jambon blanc découenné</li>
+  <li>1 petite boîte d'haricots rouges</li>
+  <li>250 g de boeuf haché</li>
+  <li>2 pincées d'origan séché</li>
+  <li>1 verre de coulis de tomate (10 cl)</li>
+</ul>
+</div>
+
+<div  class="ct1" style="display:none">
+  <ul class="recette1">
+  <li>1 pâte à pizza toute prête (ou faite maison)</li>
+  <li>1 bûche de fromage de chèvre</li>
+  <li>15 cl d’eau froide + 2 c. à soupe</li>
+  <li>1 petit pot de crème fraîche liquide (20 cl)</li>
+  <li>Olives</li>
+  <li>Emmental râpé</li>
+</ul>
+</div> <!--*END OF POPUP-->
+
+		<section class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-4">Recette et formation</h2>
+            <p>ci dessous, nos recettes et nos prochaines formations</p>
+          </div>
+        </div>
+    	</div>
+    	<div class="container-wrap">
+    		<div class="row no-gutters d-flex">
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex">
+    					<a href="" class="img" style="background-image: url(images/pizza-1.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>Pizza italienne</h3>
+    						<p>Delicious vous offre L'une des rares recette de pizza que vous ne trouverrai nulle part</p>
+    						<p class=""><a href="#pop-recette" class="ml-2 btn btn-white btn-outline-white recc" data-modal>Voir la recette</a></p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex">
+    					<a href="" class="img" style="background-image: url(images/pizza-2.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>Pizza grecque</h3>
+    						<p>Delicious vous offre L'une des rares recette de pizza que vous ne trouverrai nulle part</p>
+    						<p class=""><a href="#pop-recette" class="ml-2 btn btn-white btn-outline-white recc1" data-modal>Voir la recette</a></p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex">
+    					<a href="" class="img" style="background-image: url(images/pizza-3.jpg);"></a>
+    					<div class="text p-4">
+    					<h3>Pizza Caucasienne</h3>
+    					<p>Delicious vous offre L'une des rares recette de pizza que vous ne trouverrai nulle part</p>
+    					<p class=""><a href="#pop-recette" class="ml-2 btn btn-white btn-outline-white recc2" data-modal>Voir la recette</a></p>
+    					</div>
+    				</div>
+    			</div>
+
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex">
+    					<a href="#" class="img order-lg-last" style="background-image: url(images/pizza-4.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>Pizza américaine</h3>
+    						<p>Delicious vous offre L'une des rares recette de pizza que vous ne trouverrai nulle part</p>
+    						<p class=""><a href="#pop-recette" class="ml-2 btn btn-white btn-outline-white recc2" data-modal>Voir la recette</a></p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex">
+    					<a href="#" class="img order-lg-last" style="background-image: url(images/pizza-5.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>Tarte Aux Tomates</h3>
+    					<p>Delicious vous offre L'une des rares recette de pizza que vous ne trouverrai nulle part</p>
+    					<p class=""><a href="#pop-recette" class="ml-2 btn btn-white btn-outline-white recc1" data-modal>Voir la recette</a></p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex">
+    					<a href="#" class="img order-lg-last" style="background-image: url(images/pizza-6.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>Margherita</h3>
+    						<p>Delicious vous offre L'une des rares recette de pizza que vous ne trouverrai nulle part</p>
+    						<p class=""><a href="#pop-recette" class="ml-2 btn btn-white btn-outline-white recc" data-modal>Voir la recette</a></p>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-menu">
+    	<div class="container-fluid">
+    		<div class="row d-md-flex">
+	    		<div class="col-lg-4 ftco-animate img f-menu-img mb-5 mb-md-0" style="background-image: url(images/about.jpg);">
+	    		</div>
+	    		<div class="col-lg-8 ftco-animate p-md-5">
+		    		<div class="row">
+              <div class="col-md-7 heading-section ftco-animate text-center">
+                <h2 class="mb-4">Prochaines Formations</h2>
+              </div>
+		          <div class="col-md-12 nav-link-wrap mb-5">
+		            <div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+		              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Pizza</a>
+
+		              <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Boisson</a>
+
+		              <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Burgers</a>
+
+		              <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Pattes</a>
+		            </div>
+		          </div>
+		          <div class="col-md-12 d-flex align-items-center">
+		            
+		            <div class="tab-content ftco-animate" id="v-pills-tabContent">
+
+		              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+		              	<div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-1.jpg);"></a>
+		              				<div class="text">
+		              					<h3>Pizza à la Pancetta, Légumes et Mozzarella</h3>
+		              					<p><a class="btn btn-white btn-outline-white btn-interess" href="#pop-interess" data-modal>Je suis interessé</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-2.jpg);"></a>
+		              				<div class="text">
+		              					<h3>Pizza à la Mozzarella et Saucisson Piquant</h3>
+		              					<p><a class="btn btn-white btn-outline-white btn-interess" href="#pop-interess" data-modal>Je suis interessé</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-3.jpg);"></a>
+		              				<div class="text">
+		              					<h3>Pizza étoile tomates mozzarella et poivrons</h3>
+		              					<p><a class="btn btn-white btn-outline-white btn-interess" href="#pop-interess" data-modal>Je suis interessé</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-1.jpg);"></a>
+		              				<div class="text">
+		              					<h3>Jus de limonade</h3>
+		              					<p><a class="btn btn-white btn-outline-white btn-interess" href="#pop-interess" data-modal>Je suis interessé</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-2.jpg);"></a>
+		              				<div class="text">
+		              					<h3>Jus d'ananas</h3>
+		              					<p><a class="btn btn-white btn-outline-white btn-interess" href="#pop-interess" data-modal>Je suis interessé</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-3.jpg);"></a>
+		              				<div class="text">
+		              					<h3>Boissons gazeuses</h3>
+		              					<p><a class="btn btn-white btn-outline-white btn-interess" href="#pop-interess" data-modal>Je suis interessé</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger-1.jpg);"></a>
+		              				<div class="text">
+		              					<h3>Tartare Burger</h3>
+		              					<p><a class="btn btn-white btn-outline-white btn-interess" href="#pop-interess" data-modal>Je suis interessé</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger-2.jpg);"></a>
+		              				<div class="text">
+		              					<h3>Burger Patate</h3>
+		              					<p><a class="btn btn-white btn-outline-white btn-interess" href="#pop-interess" data-modal>Je suis interessé</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger-3.jpg);"></a>
+		              				<div class="text">
+		              					<h3>Burger vegetarien</h3>
+		              					<p><a class="btn btn-white btn-outline-white btn-interess" href="#pop-interess" data-modal>Je suis interessé</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-1.jpg);"></a>
+		              				<div class="text">
+		              					<h3>Spaghetti Penne à la Sorrentine</h3>
+		              					<p><a class="btn btn-white btn-outline-white btn-interess" href="#pop-interess" data-modal>Je suis interessé</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-2.jpg);"></a>
+		              				<div class="text">
+		              					<h3>Spaghetti aux Polpinette à la ricotta</h3>
+		              					<p><a class="btn btn-white btn-outline-white btn-interess" href="#pop-interess" data-modal>Je suis interessé</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-3.jpg);"></a>
+		              				<div class="text">
+		              					<h3>Spaghetti tièdes aux légumes</h3>
+		              					<p><a class="btn btn-white btn-outline-white btn-interess" href="#pop-interess" data-modal>Je suis interessé</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+    	</div>
+    </section>
+
+        <footer class="ftco-footer ftco-section img">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">A propos de nous</h2>
+              <p>Nan Délicious est une structure de formation cullinaire qui vous offres des recette pour réaliser vos plats italiens et met à votre disposition des formations cullinaire pour faire de vous des spécialiste en cuisine italien.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Nouvelle recette</h2>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Patte italienne</a></h3>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Spaghetti aux legumes</a></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
+             <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Services</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Recette</a></li>
+                <li><a href="#" class="py-2 d-block">Formation</a></li>
+                <li><a href="#" class="py-2 d-block">Proposition</a></li>
+                <li><a href="#" class="py-2 d-block">Conseil</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Avez vous des question?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Abidjan Cocody Angre 8ieme tranche - Côte d'Ivoire</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">000 (225) 000 0000</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@nandelicious.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>NaN 2.19  Tous droits réservés | Projet de fin de module <i class="icon-heart" aria-hidden="true"></i> par <a href="" target="_blank">BINI kadher Ouattara</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/aos.js"></script><script src="js/main.js"></script>
+  <!--jQuery Modal-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"/>
+  </body>
+</html>
