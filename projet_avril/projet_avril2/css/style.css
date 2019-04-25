@@ -1,0 +1,117 @@
+/*ALL*/
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.navbar .nav-link{
+    color: #fff !important;
+    margin: 0px 15px 0px 15px;
+    text-transform: uppercase;
+}
+.navbar .nav-l{
+    font-size: 18px;
+    height: 55px;
+}
+.navbar .nav-l:hover{
+    background-color: #3f4dc9;
+    color: #e52b38 !important;
+}
+
+.navbar .dropdown-item:hover{
+    background-color: #3f4dc9;
+    color: #e52b38 !important;
+}
+.nav-item button:hover{
+    color: #3f4dc9;
+}
+.carousel-caption h3{
+    color: #e52b38;
+    text-shadow: -2px 1px black;
+}
+.ftco-intro .wrap {
+    width: 100%; }
+    .ftco-intro .wrap .info {
+      background: #000;
+      padding: 30px; }
+      @media (min-width: 1200px) {
+        .ftco-intro .wrap .info {
+          width: calc(100% - 35%);
+          padding: 2% 5% 2% 12%; } }
+      @media (max-width: 767.98px) {
+        .ftco-intro .wrap .info {
+          width: 100%; } }
+      .ftco-intro .wrap .info p {
+        margin-bottom: 0; }
+    .ftco-intro .wrap .social {
+      width: 35%;
+      background: #e52b38; }
+      .ftco-intro .wrap .social .social-icon {
+        margin: 0;
+        padding: 0; }
+        .ftco-intro .wrap .social .social-icon li {
+          list-style: none;
+          display: inline-block;
+          line-height: 0;
+          padding: 0 10px; }
+    .ftco-intro .wrap h3 {
+      font-size: 16px; }
+    .ftco-intro .wrap .text {
+      width: calc(100% - 40px); }
+    .ftco-intro .wrap .icon {
+      width: 40px; }
+      .ftco-intro .wrap .icon span {
+        color:#e52b38;
+        font-size: 20px; }
+
+.ico-social{
+    color: #fff;
+    font-size: 25px;
+}
+.ico-social-left{
+    color: #e52b38;
+}
+.text h3{
+    color: #fff;
+    font-size: 25px;
+}
+.text p{
+    color: #555;
+}
+
+.divider{
+    display: inline-block;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #e52b38;
+}
+.titre{
+    color: #e52b38;
+}
+.titre-container{
+    text-align : center;
+    margin-bottom: 20px;
+
+}
+.titre-container p{
+    font-size: 18px;
+}
+
+/*SECTION NAVALE*/
+#section-navale{
+    padding-top:25px;
+}
+
+.construction{
+    margin-top: 30px;
+}
+#inscription{
+    height: 800px !important;
+    overflow: auto;
+}
+.defis{
+    position: absolute;
+    top: 20%;
+}
+
